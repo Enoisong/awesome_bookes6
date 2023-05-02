@@ -48,6 +48,7 @@ hr {
 .navItems ul {
   list-style: none;
   display: flex;
+  margin-top: 30px;
 }
 
 .list_item:not(:last-child) {
@@ -78,7 +79,12 @@ hr {
   
 }
 
- 
+.awsbk {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
 .bookRack {
   display: flex;
   flex-direction:column;
@@ -86,8 +92,7 @@ hr {
   justify-content: center;
   height: 100%;
 }
-
-/*Booklist section */
+ 
 .list_a {
   display: flex;
   flex-direction: column;  
@@ -149,8 +154,7 @@ h4 {
   box-shadow: 2px 2px 3px black;
   padding: 2px 15px;
 }
-
-/* Add book section */
+ 
 h2 {
   text-align: center;
 }
@@ -187,19 +191,7 @@ h2 {
 #add:hover {
   scale: 1.01;
 }
-
-/* .error-message {
-  font-size: medium;
-  color: rgb(216, 108, 0);
-  margin: 1rem;
-  padding: 1rem;
-} */
-
-/* .success {
-  color: green;
-} */
-
-/*contact section */
+ 
 .contact {
   display: none;
   flex-direction: column;
@@ -208,17 +200,6 @@ h2 {
   gap: 10px;
   margin: 10px 15px;
 }
-
-/* .contact_links {
-  color: black;
-  text-decoration: none;
-}
-
-.contact_ul {
-  margin-left: 20px;
-  font-family: 'Times New Roman', Times, serif;
-} */
-
 
 .footer {
   width: 100vw;
