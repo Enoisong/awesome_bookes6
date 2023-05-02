@@ -12,8 +12,7 @@ const h4 = document.querySelector('h4');
 const formInputs = () => {
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-
-    const msg = document.querySelector('.error-message');
+    
     const clear = () => { msg.innerHTML = ''; };
 
     if (bookTitle.value === '' || bookAuthors.value === '') {
