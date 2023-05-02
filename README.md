@@ -24,7 +24,8 @@
 <!-- PROJECT DESCRIPTION -->
 # 📖   awesome_bookes6 PROJECT <a name="about-project"></a> 
  
-awesome_bookes6 is an app designed with the ability to add, remove and store books.It is a first project of Week 1 Module 2 - manipulating JavaScript objects and implementing it into front-end.  
+awesome_bookes6 is an app designed with the ability to add, remove and store books.It is a first project of Week 2 
+Module 2 - manipulating JavaScript objects and implementing it into front-end.  
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
@@ -54,7 +55,7 @@ awesome_bookes6 is an app designed with the ability to add, remove and store boo
 [Coming soon](#)
 
 ## 💻 Getting Started <a name="getting-started"></a>
-clone from repository: https://github.com/Enoisong/awesome_bookses6.git
+clone from repository: https://github.com/Enoisong/awesome_bookes6.git
 
 ### Prerequisites
 In order to run this project you need to:
@@ -63,7 +64,7 @@ In order to run this project you need to:
 
 ### Setup
 Clone this repository to your desired folder: 
-https://github.com/Enoisong/awesome_bookses6.git
+https://github.com/Enoisong/awesome_bookes6.git
 
 ### Install
 Install this project with:
