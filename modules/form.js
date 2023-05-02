@@ -12,7 +12,8 @@ const h4 = document.querySelector('h4');
 const formInputs = () => {
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    
+
+    const msg = '';
     const clear = () => { msg.innerHTML = ''; };
 
     if (bookTitle.value === '' || bookAuthors.value === '') {
