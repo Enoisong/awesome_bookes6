@@ -1,7 +1,4 @@
-/* eslint-disable  */
-const AwsomeBkForm = document.querySelector('.AwsomeBkForm'); 
-const subTitle = document.querySelector('#sub--title');
-
+const AwsomeBkForm = document.querySelector('.AwsomeBkForm');
 export default class Book {
   constructor(id, bookTitle, bookAuthors) {
     this.id = id;
