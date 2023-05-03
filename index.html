@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Awesome Book</title>
+    <link rel="stylesheet" href="./index.css" />    
+</head>
+
+<body>
+    <header> 
+    <section class="navigationBar"></section>
+    <nav class="navbar">
+        <div class="awsbk"><b>Awesome Books </b></div>
+        <div class="navItems">             
+            <ul> 
+                <li class="list_item"><a href="#list" class="nav_links">List</a></li> 
+                <li class="list_item"><a href="#add-new" class="nav_links">Add new</a></li> 
+                <li class="list_item"><a href="#contact" class="nav_links">Contact</a></li>                       
+            </ul>
+            </div>
+        </nav>    
+        
+        <div id="date">            
+        </div>
+        </header>        
+        <main class="bookRack">
+            <section class="list_a">
+                <div class="list_b">                  
+                    <h1>All Awesome Books</h1>
+                    <h4 id ="subTitle"></h4>                    
+                </div>
+                <div class="AwsomeBkForm"></div>
+                <hr class="divider">
+                </section>               
+
+                <section class="BookRecord">  
+                    <h2>Add a new book</h2>
+                    <form id="form" action="submit" method="post">
+                        <input type="text" placeholder="Title" id="bookTitle" required> 
+                        <input type="text" placeholder="Author" id="bookAuthors" required> 
+                        <button type="submit" id="add">Add</button>                                    
+                    </form>
+                    
+                </section>
+                <section class="contact"> 
+                         <ul>
+                            <h2>Contact me...</h2>
+                            <p> Email:          enobongitiaba988@gmail.com <br>
+                                Phone Number:   +234 708 9874 676 <br>
+                                <b>Address:     Akwa Ibom State, Nigeria <br>
+                            </p>
+                        </ul>
+                    </div>
+                </section>
+        </main>          
+        <footer class="footer">
+            <p>Copyright @ 2023</p>
+        </footer>   
+
+    <script type="module" src="./index.js"></script> 
+        
+</body>
+</html>
